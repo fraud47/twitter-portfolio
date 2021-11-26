@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+li > h1{
+    font-weight: 500;
+}
+li > p{
+    font-size: 12px;
+    color: #5E656A;
+    font-weight: 400;
+}
+
+
+nav{
+    background-color: black;
+    width: 100%;
+    height: 3em;
+    color: #fff;
+   
+
+}
+.twitter-header{
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    margin-left: 3em;
+}
+.container{
+    display: flex;
+   position: absolute;
+}
+.arr{
+    margin: 1em;
+}
+
+
+ul{
+display: flex;
+list-style: none;
+flex-direction: column;
+
+}
+.gradient{
+    background-color: #72a7c5;
+    background-image: linear-gradient(to top, #355E7E 0%, 
+    #F8C0E9 100%);
+    width: 100%;
+    height:10rem;
+    position: absolute;
+    
+}
+
+
+
+
+.img-profile{
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    z-index:9;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 4px  #000;
+    
+}
+/* description section  */
+.desc{
+    background-color: black;
+    position: absolute;
+    top: 13rem;
+    width: 100%;
+    height: 18rem;
+
+}
+
+/* handle  */
+.handle > h1{
+    color: #fff;
+    position: absolute;
+    top: 3rem;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+.handle > p{
+    font-size: 12px;
+    color: #5E656A;
+    font-weight: 400;
+    position: absolute;
+    top: 5rem;
+    padding-left: 2.1rem;
+}
+
+/* bio */
+.bio > p{
+    position: absolute;
+    top: 6rem;
+    color: #fff;
+    padding: 1rem 2.1rem;
+
+}
+.edit-btn{
+top: 6rem;
+color: #fff;
+font-size: 20px;
+padding: 1rem 0  0 27rem;
+
+}
+.hashtag{
+    color: #1985CE;
+}
+.fa{
+    color: #fff;
+}
+/* links  */
+.links{
+    top:10rem;
+    position: absolute;
+    color: #5E656A;
+    padding: 0 2rem;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+ 
+    
+}
